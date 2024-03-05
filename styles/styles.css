@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-bars {
+    background-color: rgba(137, 71, 71, 0.33);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-nav {
+
+}
+
+.nav-items li {
+    display: inline-block;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.main {
+    
+}
+
+.nav {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: red;
+}
+
+.to-the-top {
+    margin-left: auto;
+    background-color: brown;
+}
+
+.nav-barss {
+    background-color: black;
+    text-align: center;
+}
+
+.mainheader {
+    background-color: black;
+
+}
