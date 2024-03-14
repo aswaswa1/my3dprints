@@ -88,7 +88,6 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    color: white;
     padding: 16px 0;
 }
 
@@ -106,10 +105,40 @@
 }
 
 .search-bar {
-    flex: 1 auto;
-    display: flex;
-    justify-content: flex-end;
+    /*justify-content: flex-end;*/
     align-items: center;
+    width: max-content;
+    display: flex;
+    padding: 25px;
+    border-radius: 50PX;
+    background-color: #f6f6f6;
+    flex: 1 auto;
+    transition: box-shadow 0.25s;
+}
+
+.search-bar:focus-within,
+.search-bar:hover {
+    box-shadow: 0 0 15px rgba(35, 141, 49, 0.75) !important;
+}
+
+.search-input {
+    font-size: 16px;
+    /* font-family: ; */
+    color: #333333;
+    margin-left: 25px;
+    border: none;/*i want to add a border*/
+    outline: none;
+    background: transparent;
+    flex: 1;
+}
+
+.search-input::placeholder,
+.search-icon {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.search-icon {
+
 }
 
 .separator {
@@ -230,6 +259,10 @@
         padding: 8px;
         font-weight: 500;
         box-shadow: rgba(155, 62, 62, 0.1);
+    }
+
+    .set-margin-button:hover {
+        box-shadow: 2px 2px 2px 2px rgba(33, 13, 36, 0.5);
     }
 
     .set-margin-link {
